@@ -14,7 +14,7 @@ Executar projeto
 ### npm run dev
 
 Criar a build
-### docker-compose up -d --build
+### docker compose up -d --build
 
 Criar e iniciar serviços definidos em um arquivo docker-compose.yml
 ### docker compose up
@@ -26,7 +26,7 @@ Remover as imagens
 ### docker rmi $(docker image ls -aq) --force
 
 Interromper e remover todos os serviços, contêineres, redes e volumes definidos em um arquivo docker-compose.yml
-### docker-compose down
+### docker compose down
 
 Remover recursos não utilizados do Docker, incluindo imagens, contêineres, redes e volumes
 ### docker system prune -a --volumes
